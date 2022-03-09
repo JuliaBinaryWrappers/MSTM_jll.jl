@@ -1,6 +1,6 @@
 name = "MSTM_jll"
 uuid = "2c0bff41-3d2c-5a3a-b138-70c96ef824a5"
-version = "4.0.0+1"
+version = "4.0.1+0"
 
 [deps]
 MPICH_jll = "7cb0a576-ebde-5e09-9194-50597f1243b4"
