@@ -1,459 +1,1105 @@
 [[MSTM]]
 arch = "aarch64"
-git-tree-sha1 = "0fea25c44c195b80592516495eda5cde45cda097"
+git-tree-sha1 = "a3169768637ab144eb97ad5760fe6356ef4fec19"
+lazy = true
 libgfortran_version = "5.0.0"
+mpi = "mpich"
 os = "macos"
 
     [[MSTM.download]]
-    sha256 = "5bcc2524a5f1cace685b4975011e828816ee8785b4734ea08ed7a1bd9e7e91e5"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.aarch64-apple-darwin-libgfortran5.tar.gz"
+    sha256 = "421d7dcf54463010e63f61d10755bf8f3237bdfb99daa9cf65aaedd400934893"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
 [[MSTM]]
 arch = "aarch64"
-git-tree-sha1 = "930946cc117244cbc2936a83a159082b41d0cc71"
+git-tree-sha1 = "a869e72d669f358b4e12f4b5aa6a409d1c4f6e32"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[MSTM.download]]
+    sha256 = "e3ff19e5bdef92071e1e61bacbfe231fbb494b45a020cad75855a3832ed6de47"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-apple-darwin-libgfortran5-mpi+mpitrampoline.tar.gz"
+[[MSTM]]
+arch = "aarch64"
+git-tree-sha1 = "7a1b9754e6edc2bb0607acfcb3f578e0f37e1667"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "macos"
+
+    [[MSTM.download]]
+    sha256 = "92017f79af05d3a48cf2ed574bf9e99b34fddf7a6aeee391404ce277162de93c"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-apple-darwin-libgfortran5-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "aarch64"
+git-tree-sha1 = "ba8d857d4cc268d5b087131ddd25a1c3f969000c"
+lazy = true
 libc = "glibc"
 libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "dd778891296d1510f680b7f0efcb372bad7b84b5c861766257e453c5e7490bb6"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.aarch64-linux-gnu-libgfortran3.tar.gz"
+    sha256 = "389e7e9cc54741c62bae69dcdcb56d6c9ce63c39893a9ce5320a5fcb5a15d8c6"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-linux-gnu-libgfortran3-mpi+mpitrampoline.tar.gz"
 [[MSTM]]
 arch = "aarch64"
-git-tree-sha1 = "e0fa8c6bcf8d0a1bb6c284ca3453d56cba4261a0"
+git-tree-sha1 = "bb1fc62516f8f19ee7df713ff5faac2fe42fdc45"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "81ba4e8242a7aca434ae53d83c5750549adb2073a9b98491b9be1058d6b063a1"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-linux-gnu-libgfortran3-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "aarch64"
+git-tree-sha1 = "8999a2ed96bb88e3bf26dc619a3f9dc3181a0570"
+lazy = true
 libc = "glibc"
 libgfortran_version = "4.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "b84243a0d7c5a0beebe45e4d1a518d4cd1ea6fe5693b4f591b480a64abe899b0"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.aarch64-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "6938b6db327c5ec8540d284f12238ec6663351194b285879e1d960e6ef668733"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-linux-gnu-libgfortran4-mpi+mpich.tar.gz"
 [[MSTM]]
 arch = "aarch64"
-git-tree-sha1 = "3e244418a746ff69d86b2896240eea888b8371a1"
+git-tree-sha1 = "f3af14195a75afe92a94d5b251849a05d6ca1625"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "5f42c2a991a1aca57eb521e8696ef439e0b0ef40992c0aa770c43adf66c42817"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-linux-gnu-libgfortran4-mpi+mpitrampoline.tar.gz"
+[[MSTM]]
+arch = "aarch64"
+git-tree-sha1 = "e589b20a1278d35353f8d996dd98e1b085959fa8"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "9a39ebaae6b00ab2504593c20240ef4297db46d5a8e1ef3a187d6f55619934d1"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-linux-gnu-libgfortran4-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "aarch64"
+git-tree-sha1 = "5f94948821dfc0e531c3e4e15eaa3b5f2ba83bc9"
+lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "ccd122776674cf3b735725843cdef2cbe346a0275201a4462bc6dbecad9fa36c"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.aarch64-linux-gnu-libgfortran5.tar.gz"
+    sha256 = "a830db095c3d4fef1fd605e216a4615abc96d8df058bce3ef5a6ffb0ea4b6b55"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
 [[MSTM]]
 arch = "aarch64"
-git-tree-sha1 = "120c136e1183ca0da88bdf304bf7a52dc163f075"
+git-tree-sha1 = "2d9f1adbae0e04bfa2317126eab5cf78dcc66afa"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "131c3e28eee8d60ba853eb2f066378d93e4eaadedd4b66cc2acb1fb7ae22f1f6"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz"
+[[MSTM]]
+arch = "aarch64"
+git-tree-sha1 = "a01ebb8b09d4499bcee399aaae50d09562dbd037"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "c7c1a7c04d789b247406df1923a6a530e1772ee532b766df84ae397452c05a95"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-linux-gnu-libgfortran5-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "aarch64"
+git-tree-sha1 = "7d7f01e587d1771443495845cb98505abfe49493"
+lazy = true
 libc = "musl"
 libgfortran_version = "3.0.0"
+mpi = "openmpi"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "f66e9c20b2e4de8e818c544b9c6faf1d1965b7e3169df756d3fdeb65263e90c8"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.aarch64-linux-musl-libgfortran3.tar.gz"
+    sha256 = "7a219ade8aa74616cff45b3a5e8163b8f34aaf4c6ee1812c2353147afe02ad36"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-linux-musl-libgfortran3-mpi+openmpi.tar.gz"
 [[MSTM]]
 arch = "aarch64"
-git-tree-sha1 = "89761b194b49a6f0aca5fd4e7a71a66e136f3964"
+git-tree-sha1 = "7c9c53fbd228cad7cf72edf9374dcb81c8c76323"
+lazy = true
 libc = "musl"
 libgfortran_version = "4.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "27392ddce07c7649d2c78148ecaa47f01e8bb546a154762dbf1daa39d9255e38"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.aarch64-linux-musl-libgfortran4.tar.gz"
+    sha256 = "fadeafbe5653056e2b2a1b51e96a5887ec542cfb95efeda3ff0b95de0f9219bc"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-linux-musl-libgfortran4-mpi+mpich.tar.gz"
 [[MSTM]]
 arch = "aarch64"
-git-tree-sha1 = "c2c3e4c72402d641c2e063b77b8412bae422a7d1"
+git-tree-sha1 = "a0fcc4375f67821c0797eba56818f5aef28a7a8c"
+lazy = true
 libc = "musl"
-libgfortran_version = "5.0.0"
+libgfortran_version = "4.0.0"
+mpi = "openmpi"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "ea5fa64f37b30abb4a0ac3df18ea1f12392eda902dde71f4d5c20f54f9ffc163"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.aarch64-linux-musl-libgfortran5.tar.gz"
+    sha256 = "b45357cbe8ff75c2429e2b2b36a89128f6e65fe3b987023f101638fe5658f6ed"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-linux-musl-libgfortran4-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "aarch64"
+git-tree-sha1 = "e33945d9b5d441e52cdf8b09533acf4fb97f0879"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "8638bcc23ab8e328a7f1560c6eb81907aa5dcfb7dc53fa38bc3d1f22c528bfa4"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-linux-musl-libgfortran5-mpi+mpich.tar.gz"
+[[MSTM]]
+arch = "aarch64"
+git-tree-sha1 = "23dd067fb20e31c267589906c7b84ea66b67860a"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "fa4b47769ee3db678d3e6971e6d2975a369f89917d0fa35d0b529f719ae9d956"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.aarch64-linux-musl-libgfortran5-mpi+openmpi.tar.gz"
 [[MSTM]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "914d423196b9630e02bc8202a3ae5d7443fa3f13"
+git-tree-sha1 = "a6f8e816000f96ff86c76a771922cc1eee8de778"
+lazy = true
 libc = "glibc"
 libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "f11d9ad047901d8ddd63cf88a99e9a503112c479e59e31b62d7d0c2ee3dbd54d"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.armv6l-linux-gnueabihf-libgfortran3.tar.gz"
+    sha256 = "73e05590ac4f71442a703aecc758dec6b44cf34706ec238844fff95159cc9c31"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv6l-linux-gnueabihf-libgfortran3-mpi+mpitrampoline.tar.gz"
 [[MSTM]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "e1b6bc39d551e79a030db8eaaf78359d4661ac02"
+git-tree-sha1 = "1fabdf60d3f8c5b9b5f19869fedbf0213f749dc5"
+lazy = true
 libc = "glibc"
 libgfortran_version = "4.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "32e6db26db7d6a48dacec8942127eacf2f71be1145e122984f3c273385f40188"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.armv6l-linux-gnueabihf-libgfortran4.tar.gz"
+    sha256 = "a7690094c566c083da9a205fb9192305594d5c67e5b1d6789bdc550b71bd2ddd"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv6l-linux-gnueabihf-libgfortran4-mpi+mpich.tar.gz"
 [[MSTM]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "5e726e36a4469497cdd548a08e89c60f96ffb346"
+git-tree-sha1 = "7a876c931fd932d817723b5341aa69b53fc21f2d"
+lazy = true
 libc = "glibc"
-libgfortran_version = "5.0.0"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "6bc9e6bb0994f04344a731ee8a2cef2f7ec1e2ec1aec705dfc31c089ed8a1283"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.armv6l-linux-gnueabihf-libgfortran5.tar.gz"
+    sha256 = "9745a1d441a0bd1e8d8cbdd690c46d98f2ec08cf9245cfe3ff0723b0e1043c22"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv6l-linux-gnueabihf-libgfortran4-mpi+mpitrampoline.tar.gz"
 [[MSTM]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "def8d606bd3d48ba2aa53c9e9b30308f76fef964"
-libc = "musl"
-libgfortran_version = "3.0.0"
+git-tree-sha1 = "db452c314393285aa1a62dcf7194c40804a15efc"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "6520d9bc3fd8dfdb9283533d2ffe369799eabc8686521d3240a1d05205fc8165"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.armv6l-linux-musleabihf-libgfortran3.tar.gz"
+    sha256 = "9e08a40d1b245066cf5c6f805e6e5ceb127803232644cbb7894e0a274c065ffb"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv6l-linux-gnueabihf-libgfortran5-mpi+mpich.tar.gz"
 [[MSTM]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "435c5df7f2cf4603805e1cb8f28934493549d394"
-libc = "musl"
-libgfortran_version = "4.0.0"
+git-tree-sha1 = "ba5849f5e6c835b3100dc1fc363a39cd999d05b5"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "88d5772e9859d6003e8eee5b82eaef4ed22223b419a74b29677fe5b771b55302"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.armv6l-linux-musleabihf-libgfortran4.tar.gz"
+    sha256 = "90473a4cd2c43a51590ead637037f0b3dfa7a81b6d710a928acb4e50f247bbcf"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv6l-linux-gnueabihf-libgfortran5-mpi+mpitrampoline.tar.gz"
 [[MSTM]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "eb8e4ef885f9196a6ba4462d217d3fcda98840b8"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[MSTM.download]]
-    sha256 = "b9bf8cd4734e1241ac6ccf483b5e38b18d4f1eb9130480b69d3a35e13cc752d5"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.armv6l-linux-musleabihf-libgfortran5.tar.gz"
-[[MSTM]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "8591574fdbfb649712ab569329b864f6e3c90c12"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[MSTM.download]]
-    sha256 = "124ad514bbae2ef8ef833580b91d56f265c671feb6955a4327c570fa05383690"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.armv7l-linux-gnueabihf-libgfortran3.tar.gz"
-[[MSTM]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "e391f6e1dfea62b28757272babbdad39a6fa2521"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[MSTM.download]]
-    sha256 = "3dfd26c9e5e0ea4d8681f9538d5d8351af559be855523a6c0abc415881995fdf"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.armv7l-linux-gnueabihf-libgfortran4.tar.gz"
-[[MSTM]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "3ec274a6f3a92923c4a3f749d0ece863c46f8968"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[MSTM.download]]
-    sha256 = "9a218d47c5063e892b0d9ea898124d7ab75ef98706dd41bac46898860c309bba"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.armv7l-linux-gnueabihf-libgfortran5.tar.gz"
-[[MSTM]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "4a78f316de543e57f96a7572645adfd83743baf2"
+git-tree-sha1 = "b28895e0e88d0a476d5f208ac948e96e5b970e7f"
+lazy = true
 libc = "musl"
 libgfortran_version = "3.0.0"
+mpi = "openmpi"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "d8c3464c9a48bf330a5998d59e2b4ea0f95064567fe2afcea74c8e9c390093f8"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.armv7l-linux-musleabihf-libgfortran3.tar.gz"
+    sha256 = "71c0246c7c807a51c91cc6aa53f90b989b82bae3304fdb712a26ed2d7cf2f4dd"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv6l-linux-musleabihf-libgfortran3-mpi+openmpi.tar.gz"
 [[MSTM]]
-arch = "armv7l"
+arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "b8a5db7a2cc065c702af9d2b01cdaac0475433f7"
+git-tree-sha1 = "5a20a0ab343d01327cf8af12da629a806c327a41"
+lazy = true
 libc = "musl"
 libgfortran_version = "4.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "56695af1a8efeaffd692d827ddf071276b141e7c4894b9a44e55a4689c3c87f6"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.armv7l-linux-musleabihf-libgfortran4.tar.gz"
+    sha256 = "80682346b74664559210e696dc826cd3d3fea08971617e37d381a415c97e8ac8"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv6l-linux-musleabihf-libgfortran4-mpi+mpich.tar.gz"
+[[MSTM]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "3d040e06165c2e2b0dd9fba6de611035b57422b1"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "1fecf9735785ac5429075c069700fa1d796a39aba6ec70f73dd16cdaba887442"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv6l-linux-musleabihf-libgfortran4-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "18c343cf2abef8bc8ca0fdf83c7cd74480fedc6c"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "55c238d4cf33d682a259be76314dffc5900c534e66760f76fd8d5769c0cc0f9f"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv6l-linux-musleabihf-libgfortran5-mpi+mpich.tar.gz"
+[[MSTM]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "0a6ac58a354dac5e5c9d88bbd3cb98cc9a66f2ce"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "604a0fada0da070b700ad635f3cd3ce21f64970b7f1553c7f2cbd759471911b5"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv6l-linux-musleabihf-libgfortran5-mpi+openmpi.tar.gz"
 [[MSTM]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "cf3b2749a0093bd1dcd4306c45f686ec512c8a34"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[MSTM.download]]
-    sha256 = "1d500e4ca086c50fabe06da22414215495e67057785a0c75328f7614422ffc6c"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.armv7l-linux-musleabihf-libgfortran5.tar.gz"
-[[MSTM]]
-arch = "i686"
-git-tree-sha1 = "93f37bc3aa3b4e4063bc8ccf5f88b3ca9e9ea79f"
+git-tree-sha1 = "5d4194517419d20d0a5fb2cde786da35ef6dbdaa"
+lazy = true
 libc = "glibc"
 libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "6495e2af2727b182820fab60f26f3cc331c75d647b810535e82e9c734cd959ec"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.i686-linux-gnu-libgfortran3.tar.gz"
+    sha256 = "e4c4856962291d514ae19bdcbb8ea2e1fd54ae6e93964cbd61b4e0c92afaa8d2"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv7l-linux-gnueabihf-libgfortran3-mpi+mpitrampoline.tar.gz"
 [[MSTM]]
-arch = "i686"
-git-tree-sha1 = "294b1bc0d4b14108f9b9d4a96fc5a21e396b7feb"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "ad3433b109e83d595b239065ed9383aeb098fc3f"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "4ac3bb6ebc3910e726abce0c89664a86c51e43832fb3033c37fe8ed832ab56d5"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv7l-linux-gnueabihf-libgfortran3-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "a6745b04123f8211ba9e0877ac486d0635bfdf61"
+lazy = true
 libc = "glibc"
 libgfortran_version = "4.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "9c459711bb7cbe746d551d349058138f20041cc6eff785a22a00c12f1582dc6f"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.i686-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "b0f2ac197c105233e12ea15ade3a31405ac80ede828ea9bc45d4cb8831f0f3e8"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv7l-linux-gnueabihf-libgfortran4-mpi+mpich.tar.gz"
 [[MSTM]]
-arch = "i686"
-git-tree-sha1 = "6cec73c363a5beb1164de7523a5999df2e9c91bc"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "9d72eacf4dac80f99f5adcb1becbd469f9176b4c"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "90fc286e8a886e7e977af4b7f056dd1ec176186c00d02a1bb7982d77e6ec1e03"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv7l-linux-gnueabihf-libgfortran4-mpi+mpitrampoline.tar.gz"
+[[MSTM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "cdd4ba9e6dfc9d3f8fd6ddcd68f13eeacdbfcd5c"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "b46864460f8198715e7d8b979501b093e213fee33a0f7ab8063f827709a23224"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv7l-linux-gnueabihf-libgfortran4-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "bfccb0aadca6768ad9d702c2fa4db4013a06c5c3"
+lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "cea18a7e6c333b15d690ae066bc0214d142e6b0eddc4cb0e0ccdff4da4ee15b0"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.i686-linux-gnu-libgfortran5.tar.gz"
+    sha256 = "1be3ce9b71d98347f7fccd5020d047769c37df26e3377a1885b3c0e3b960d534"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv7l-linux-gnueabihf-libgfortran5-mpi+mpich.tar.gz"
 [[MSTM]]
-arch = "i686"
-git-tree-sha1 = "8216440144934e7600589cdbce600ddc7687ff0a"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "040322a3cd429c5cc00ec32d2f2f940a31c9d3b8"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "071c8a9905c24a438e7debbf8001696b8e5209e359d4b66b0d2a443a5b2e96fb"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv7l-linux-gnueabihf-libgfortran5-mpi+mpitrampoline.tar.gz"
+[[MSTM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "814212d1f85d524474d56c296a096c6f2f655d8c"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "38b346e6fd55f88dcf4308afacc298658510b4643bcc4f424205a4c1e5a690d9"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv7l-linux-gnueabihf-libgfortran5-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "79480eb9c4a06cb75e4ad034a2bf8f73ebd78b0e"
+lazy = true
 libc = "musl"
 libgfortran_version = "3.0.0"
+mpi = "openmpi"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "1f1175370df0a9c10a98d2307359effcf2be9a4a8efda0927bfa8cbaac166d90"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.i686-linux-musl-libgfortran3.tar.gz"
+    sha256 = "71a92823817a5b427f8ab8e7a173f58e9b90e6fe47fbd515d2d1e09669252e3e"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv7l-linux-musleabihf-libgfortran3-mpi+openmpi.tar.gz"
 [[MSTM]]
-arch = "i686"
-git-tree-sha1 = "89930e91282918524ee0d1b49b3b6179f337e970"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "d4e2e86668139e72f91795547261084347235571"
+lazy = true
 libc = "musl"
 libgfortran_version = "4.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "54cf47911c852b74a5a90be0dd629a7902cd689e9f3c0febab9e7110bf9b3f51"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.i686-linux-musl-libgfortran4.tar.gz"
+    sha256 = "aba9017e2dbadb80a6dc041467700a94a7a92519454aee44a1d04def727328d1"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv7l-linux-musleabihf-libgfortran4-mpi+mpich.tar.gz"
 [[MSTM]]
-arch = "i686"
-git-tree-sha1 = "781ef1894699279b83d91c152ba99409c88393e4"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "4a02db9e373b36e04058b3c954c3204a9e77c3b1"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "6dab2f08b46878d4f6189764df905663b218877afd4c9332f0b3959a2ddb61ee"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv7l-linux-musleabihf-libgfortran4-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "292ce8270b03cd5a7f45f9988318f58f03722a5c"
+lazy = true
 libc = "musl"
 libgfortran_version = "5.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "c1401570599c0be4a0684dd1e259e503ce4f24f2711a8b33c9face673146e5e9"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.i686-linux-musl-libgfortran5.tar.gz"
+    sha256 = "0a99e714b3930b556fb27090142d297a2e1bcbc9ad2157529b9f3994c99c27f6"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv7l-linux-musleabihf-libgfortran5-mpi+mpich.tar.gz"
+[[MSTM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "214a5bff0462ea69cb3438d569b89e7b1704a56c"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "238787f579fad2e7d0d2c3efe81dfea3adce5e8b8fd2dccb9ca209e367b77b22"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.armv7l-linux-musleabihf-libgfortran5-mpi+openmpi.tar.gz"
 [[MSTM]]
 arch = "i686"
-git-tree-sha1 = "7d0fd9b5c3b8c3a1327376c889498a3127e96942"
+git-tree-sha1 = "6ce0806d8370e82543b070557b1cce772232981e"
+lazy = true
+libc = "glibc"
 libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "72e7ef1212012040c3d202f7c50f910781c55137bcc29d03f90a24de1f2a35c3"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-linux-gnu-libgfortran3-mpi+mpitrampoline.tar.gz"
+[[MSTM]]
+arch = "i686"
+git-tree-sha1 = "9c44c89f40f1dc8e0f19385ba6cf80b2c846843a"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "62998e9f639950f4e80f8d301b4abd54fe325a952569fbbe1b6fb4c640f95fe0"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-linux-gnu-libgfortran3-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "i686"
+git-tree-sha1 = "e36450a34312320a36c31e75942d90e12d12f525"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "6658da678f13489304379815298f451ba06963a9b290947a2a57208c860937b1"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-linux-gnu-libgfortran4-mpi+mpich.tar.gz"
+[[MSTM]]
+arch = "i686"
+git-tree-sha1 = "ce6d0d30e34f56c8a59b33cf67d6238002575df2"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "f520c1df6979766fcb256d1e9225ac42bc20bf3537e66fac61682410eee75fe3"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-linux-gnu-libgfortran4-mpi+mpitrampoline.tar.gz"
+[[MSTM]]
+arch = "i686"
+git-tree-sha1 = "4fa3e45182a2729a5344679344069d8e7f0801d9"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "7c087cf6da0eb815727df643202cd0e9e642b85165d1ec632a99ccbaf946babe"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-linux-gnu-libgfortran4-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "i686"
+git-tree-sha1 = "f45f0c3db7eb276e859b5bff8bd59a4501add813"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "84dca7b6e517143ae16783e098e750c38c67d98b89b251c7871b0735c67f3551"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
+[[MSTM]]
+arch = "i686"
+git-tree-sha1 = "fcf182c94b6b4ae68315e7f7ff8eece46399b6e2"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "229568f6ca66508085ae8e5c3ec4b9e95a0b6ad1a5684e6cfdbccf1a4ccf5992"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz"
+[[MSTM]]
+arch = "i686"
+git-tree-sha1 = "0717d597d9e1b545bfa7929744398ba7282ddce9"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "92f1fa5a6a9a378e1745aacf3a680e4b80dd120e510113c46a8810fb28dc5c6b"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-linux-gnu-libgfortran5-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "i686"
+git-tree-sha1 = "f9bf8a9e5eabfca7047ba9c1115d9791cf2efbef"
+lazy = true
+libc = "musl"
+libgfortran_version = "3.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "274cadaeeb222ae7cc84f8cdc6de3f6b4a058066ac0ae5741f56b8bdae951a5c"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-linux-musl-libgfortran3-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "i686"
+git-tree-sha1 = "ea11b9ba0ff4affaa135fc2fb0d3e65a1d05cc53"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "3a8db6600b2739072c57ebf6b2d18846555d4ea30380ebf88d3b24d8f79434eb"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-linux-musl-libgfortran4-mpi+mpich.tar.gz"
+[[MSTM]]
+arch = "i686"
+git-tree-sha1 = "4a85b416e42125347d4323e8a49b1e6e7d628948"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "7b60948752d69d955951068d375c8dc883e295fa6dd976413673dbda087670e3"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-linux-musl-libgfortran4-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "i686"
+git-tree-sha1 = "8dacd2a3d3eb2c8810b3a1ef81e443d97bfd7aec"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "19b331844fe0e16ea0e640c33f2bccd2be3283a9b0e79acfb333eda1d481301b"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-linux-musl-libgfortran5-mpi+mpich.tar.gz"
+[[MSTM]]
+arch = "i686"
+git-tree-sha1 = "91efb2d5d7b47a781a29988382910b08c067879a"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "7159dd27a680c147db7ba220a7993efbea98686c5c328fbd75960c91e8ad1b52"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-linux-musl-libgfortran5-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "i686"
+git-tree-sha1 = "d842c7149822d2729011c5db0b857cb7887af109"
+lazy = true
+libgfortran_version = "3.0.0"
+mpi = "microsoftmpi"
 os = "windows"
 
     [[MSTM.download]]
-    sha256 = "028902f3b08bf489026657b54b3a3b824be531170b40f646b140b5130832543f"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.i686-w64-mingw32-libgfortran3.tar.gz"
+    sha256 = "1a5fb7db2fabb19c37100607c7289b77e2a3ca7d03f55bcf8b662f255e6d0839"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-w64-mingw32-libgfortran3-mpi+microsoftmpi.tar.gz"
 [[MSTM]]
 arch = "i686"
-git-tree-sha1 = "a8a2ef5c40397d3579186a9fa769903eb3cbcf61"
+git-tree-sha1 = "fd3d2b156524892bf6159f2b309a6b19db7262f4"
+lazy = true
 libgfortran_version = "4.0.0"
+mpi = "microsoftmpi"
 os = "windows"
 
     [[MSTM.download]]
-    sha256 = "dbb1fed5b6545a0c3ad2f75913546b1efde80968ba9c0fb009b08b8692fabd06"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.i686-w64-mingw32-libgfortran4.tar.gz"
+    sha256 = "3b1cb9e38a209c191b451f175e79e37b0dea6055958d90d959a0f78d0abc7cf2"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-w64-mingw32-libgfortran4-mpi+microsoftmpi.tar.gz"
 [[MSTM]]
 arch = "i686"
-git-tree-sha1 = "64bd50f961c9fdddebfe671ae4e64e4e360ab3cd"
+git-tree-sha1 = "f2014e8a3be1588017b4578560ff2c9b346c5daa"
+lazy = true
 libgfortran_version = "5.0.0"
+mpi = "microsoftmpi"
 os = "windows"
 
     [[MSTM.download]]
-    sha256 = "63b78602477111e69e530ad7dd8d165d112bbe07f19dfaa9e8da64bb31c15785"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.i686-w64-mingw32-libgfortran5.tar.gz"
+    sha256 = "a240ff0f4699e2a40cf0da7cfaaa2cf1253bc36593c82e5f85c799cb8384708f"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.i686-w64-mingw32-libgfortran5-mpi+microsoftmpi.tar.gz"
 [[MSTM]]
 arch = "powerpc64le"
-git-tree-sha1 = "168337a5d2323eadfbdafb1189f44d6ac2484a33"
+git-tree-sha1 = "fc7960346b0a7345c3c83e08e6af5883c4175ffb"
+lazy = true
 libc = "glibc"
 libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "5410acfcea64bc2fbc299d76f3ecbfb4b4510ae6cf801b8942be429617604d8e"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.powerpc64le-linux-gnu-libgfortran3.tar.gz"
+    sha256 = "b62c33c652f3dfb85895ebf4bcb1fd270889d5b77b49ae1870ece6beac8370e6"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.powerpc64le-linux-gnu-libgfortran3-mpi+mpitrampoline.tar.gz"
 [[MSTM]]
 arch = "powerpc64le"
-git-tree-sha1 = "5f552c58a7f58d99d2d1db812a04aabd1a7bd7fc"
+git-tree-sha1 = "1d12da221b6761e0dcede6def6ab82d67b207d48"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "cfe1eed2da39c607a5022d795c2eb5dc65a0fbb9b413afcce33c7ca59543767b"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.powerpc64le-linux-gnu-libgfortran3-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "powerpc64le"
+git-tree-sha1 = "39b861548afdb2b70af06eb33fbbdff8204e3f28"
+lazy = true
 libc = "glibc"
 libgfortran_version = "4.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "36f527ef7111b49bf06cd285f75475c4f11c8f7ede2fb76ae1d3fb8831204c1e"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.powerpc64le-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "b6faaa1f124538e3c1f084313913cf3f128da2e0bdc97040b77b809d92784e40"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.powerpc64le-linux-gnu-libgfortran4-mpi+mpich.tar.gz"
 [[MSTM]]
 arch = "powerpc64le"
-git-tree-sha1 = "835c2c8568e96ddaebdb6854cbde6257889351b4"
+git-tree-sha1 = "70c0dd7efb25d29a71a6c64e782e8b795570f7e9"
+lazy = true
 libc = "glibc"
-libgfortran_version = "5.0.0"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "4bc1359119f0f5e94fcb76b99884bc43db1bcf705e8d03072a348bb3f6af2817"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.powerpc64le-linux-gnu-libgfortran5.tar.gz"
+    sha256 = "beb691c085692e12d2295e93d487a4f759651b236fa3220af4dabd0db88f8bd7"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.powerpc64le-linux-gnu-libgfortran4-mpi+mpitrampoline.tar.gz"
+[[MSTM]]
+arch = "powerpc64le"
+git-tree-sha1 = "bcaff8ab2cfc71119ee9b12879c641f1c2ff9c39"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "83b2567920bec1bbc52b259c537f5e5c66d06428c11607e0bbf384d8152d29c5"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.powerpc64le-linux-gnu-libgfortran4-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "powerpc64le"
+git-tree-sha1 = "2ae6cb89e9036d089908192492640eb601ad7193"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "86f5a08d09176948ea41ff0f03d4a8df8eeb685493f032df4cdcbd0039ee6079"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.powerpc64le-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
+[[MSTM]]
+arch = "powerpc64le"
+git-tree-sha1 = "c76543a7caca3d1017ae5fd45fff87c7797848ff"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "4e5d8a5b8a6719d7cd7fa58fe2a7251187b01ad0899f7383d5996d4e48e07f56"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.powerpc64le-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz"
+[[MSTM]]
+arch = "powerpc64le"
+git-tree-sha1 = "865e16d3beb87014086f95a05e1a01e972fbcd8c"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "939e24bece66bc4dc23e2f4434d93885f980df537f2c0feff05dce25055985ab"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.powerpc64le-linux-gnu-libgfortran5-mpi+openmpi.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "da401bcf099959067bc9605c30a635e919a2471f"
+git-tree-sha1 = "5e654e14fce154fd44f530b208b037a849dcef47"
+lazy = true
 libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
 os = "macos"
 
     [[MSTM.download]]
-    sha256 = "7bd1d1986945f649223461102ae563e1a80f35bd7d1e3da1aeffaede959f9ffa"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-apple-darwin-libgfortran3.tar.gz"
+    sha256 = "439051336af9b118905a778b301d38356411555ca9b2f1cc53b9a8fbe3498061"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-apple-darwin-libgfortran3-mpi+mpitrampoline.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "6495f3aa56cdecbe322253d1e39c53ce76365fbe"
-libgfortran_version = "4.0.0"
+git-tree-sha1 = "6eee6b77aac2ad8921cf2d0019b431d777d19200"
+lazy = true
+libgfortran_version = "3.0.0"
+mpi = "openmpi"
 os = "macos"
 
     [[MSTM.download]]
-    sha256 = "5f356a6a7bfe0476441cd2703e0aef06aa943863844589522f6bcae68e933dc4"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-apple-darwin-libgfortran4.tar.gz"
+    sha256 = "df2d3600999a4af9f8ef97d5685eabff1ee8f492625d5364e0c95ca4a4693cd7"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-apple-darwin-libgfortran3-mpi+openmpi.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "81d0bd97058d17b187316386569957808bd2f7d5"
-libgfortran_version = "5.0.0"
+git-tree-sha1 = "5ebc8941e96141c8f71a7d07caee49347db1b0c7"
+lazy = true
+libgfortran_version = "4.0.0"
+mpi = "mpich"
 os = "macos"
 
     [[MSTM.download]]
-    sha256 = "f1d0c5fdc250629d5b5622186c61071134a44b7bb453bd74286164c420d1b3db"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-apple-darwin-libgfortran5.tar.gz"
+    sha256 = "b21bfce2b6ce20d7486b06776ec91863963534dac0e810f15cda8a8505c3aed3"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-apple-darwin-libgfortran4-mpi+mpich.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "378482bd09934713635fab93c5d074a5a8f564f1"
+git-tree-sha1 = "9ff7eb9c5e424dc82cb6e979fd67bc2cc5522db7"
+lazy = true
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[MSTM.download]]
+    sha256 = "d6ed3d46cd737474958a4c9ffc689c025b0353e09b96971a238579dddb8c26d1"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-apple-darwin-libgfortran4-mpi+mpitrampoline.tar.gz"
+[[MSTM]]
+arch = "x86_64"
+git-tree-sha1 = "558020a6664e16b7c6a991ffacd722144b08ae36"
+lazy = true
+libgfortran_version = "4.0.0"
+mpi = "openmpi"
+os = "macos"
+
+    [[MSTM.download]]
+    sha256 = "ef4d035cb6ac1c04e040c64af90cdccf92093333efa9da1f2747d3ec1ddf7255"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-apple-darwin-libgfortran4-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "x86_64"
+git-tree-sha1 = "dfc15fa65c65474aaf73782b5a7c25bb1a9628c9"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[MSTM.download]]
+    sha256 = "29a985b2a5095c9c6cf191a12bc5771ed7262486a5b4dd214b3db471d8e76c13"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
+[[MSTM]]
+arch = "x86_64"
+git-tree-sha1 = "31c4287813afd59dfb12f75f283b24207648cc7a"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[MSTM.download]]
+    sha256 = "c434db006526455809b2cdbff9e95fd7402452871386d9cd1251f0cac758f0c9"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-apple-darwin-libgfortran5-mpi+mpitrampoline.tar.gz"
+[[MSTM]]
+arch = "x86_64"
+git-tree-sha1 = "23149ac2f869031356a2469f04bd0882aad24b43"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "macos"
+
+    [[MSTM.download]]
+    sha256 = "c239aff9a546fdd47d6342f6be3628efcabf9ad53df448fd8f9b83552eaac9ee"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-apple-darwin-libgfortran5-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "x86_64"
+git-tree-sha1 = "8ce7dd23922c3561e54a05402d62c758c312d743"
+lazy = true
 libc = "glibc"
 libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "0ebb6fc8f96f2dd1de7c85223bdb56b300b3f2470602d56557e0af3223626f8d"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-linux-gnu-libgfortran3.tar.gz"
+    sha256 = "06c72c71c1ac6d09211001398dd33ca5ff47b151d81d4a412a467254c624ab1d"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-linux-gnu-libgfortran3-mpi+mpitrampoline.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "74adf7016fa0ada5008c659746777a5428c8a2fa"
+git-tree-sha1 = "3775915aef74fd52545c7f38d746b37b8fa97373"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "1c413d943709c1db2c9d5434fcc8cb3c4807f65b88a4652e53770ec067897765"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-linux-gnu-libgfortran3-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "x86_64"
+git-tree-sha1 = "23ec15aed5d616722501696ebee7d38110d23dc4"
+lazy = true
 libc = "glibc"
 libgfortran_version = "4.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "d32f7cf84030eb54f4ee4093d2ad2e36a45f97d1cccec1449cc22d9ac9ed9554"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "a42323a69c9e520d6ef9ff68a586f37a3520e06d1bd7f293ab7fdc5d05ff8bb1"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-linux-gnu-libgfortran4-mpi+mpich.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "94ed4ec3e98daf8ee972461b0fe788bdf695accf"
+git-tree-sha1 = "de032d693200c298abaeb7a83c3f32852b372819"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "2480df3db85b811b7adaa3fbc0946b473f898b0af27b77cc6cebaae9fae956d4"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-linux-gnu-libgfortran4-mpi+mpitrampoline.tar.gz"
+[[MSTM]]
+arch = "x86_64"
+git-tree-sha1 = "58b664478d7bd3dbe68d3a6373d884e667d0ce2e"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "2830e4f2dc80ab9daf132a929f3654c5b2aad7ce26fcd140eb9e434cc4cfe1d6"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-linux-gnu-libgfortran4-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "x86_64"
+git-tree-sha1 = "2dfcc56034f47e5345ca9b3528f6f3e95ef911c9"
+lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "2a17a090efd0817830d4d3aad81c7996be9736985f35653e9a17449a9c98bd8c"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-linux-gnu-libgfortran5.tar.gz"
+    sha256 = "442433b84c28ee9cd45573e2971512be887528aef6209573ac216162a083dc44"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "732bdd3106f071cba1bab8b030634a0ecd8418eb"
+git-tree-sha1 = "974a88e5bb0940a667e297c4f03b17b4c2343714"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "c6d0f957f8b6ddfc92704d55040e9f131837fb4b2af708306051ac66f98acdfb"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz"
+[[MSTM]]
+arch = "x86_64"
+git-tree-sha1 = "ef8a05ab0dd2f5ba8ff494a680870af66a153c64"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "728b3a52df89aa23083a9a0d07acbe717abcf37189d1c5fd8fe1a49c1998db69"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-linux-gnu-libgfortran5-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "x86_64"
+git-tree-sha1 = "3d6bb2e41042c0dc6859e4e93eff861a921be4db"
+lazy = true
 libc = "musl"
 libgfortran_version = "3.0.0"
+mpi = "openmpi"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "e49f8ceb6ec4b6349db327f6173ce8417710f52fb25d1928a56ddfc0ef291bbd"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-linux-musl-libgfortran3.tar.gz"
+    sha256 = "b103387bd991038df836c0e4454ae79e8278b96179315e1b69219b1d5987fe0e"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-linux-musl-libgfortran3-mpi+openmpi.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "2f8980590f4384408a91f32228445da94d324d7c"
+git-tree-sha1 = "8f09c8ce1b2913e4134cb708691a6dfac58da732"
+lazy = true
 libc = "musl"
 libgfortran_version = "4.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "dc762ce00478efa74d56c3f9429846817edc5a15eb779a625cbcc75e298e3282"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-linux-musl-libgfortran4.tar.gz"
+    sha256 = "7f243350d4c4f58637e8a197902f1af7a4388c15e3e7cd633e6f921251b1913f"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-linux-musl-libgfortran4-mpi+mpich.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "6d76550e0f644237b8db27751f64ea4a70725820"
+git-tree-sha1 = "cbbb7927c58cf7309d07e64763e56012750a1477"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "f76899a1866636f2bf07839260f0ed342dbedc9a97b6a21adb2f1a5f6a2f9b2a"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-linux-musl-libgfortran4-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "x86_64"
+git-tree-sha1 = "62a6bd9aeeca59992116d7d7abedec031f2775b0"
+lazy = true
 libc = "musl"
 libgfortran_version = "5.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[MSTM.download]]
-    sha256 = "5e87ed0c6c16daea5793419796a7677b1170d74c82d626dbcaf474935e7443f4"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-linux-musl-libgfortran5.tar.gz"
+    sha256 = "73e694cffe58374c14454aef3ce7c145a60052de9a02d642fb835ffec3f7a1e5"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-linux-musl-libgfortran5-mpi+mpich.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "f82cb28828c83d89217fca215a2df610c04d1692"
+git-tree-sha1 = "10e386e8f0da7458ffd24a75ecd0b8a0f5b857b0"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[MSTM.download]]
+    sha256 = "1f3919ece4ac0d9db026147fda2d4f7804f71ac9dfdb5854cb84f7df713ad88b"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-linux-musl-libgfortran5-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "x86_64"
+git-tree-sha1 = "2c284da40641e99d8e00ee28a11f4faceab49d61"
+lazy = true
 libgfortran_version = "3.0.0"
+mpi = "openmpi"
 os = "freebsd"
 
     [[MSTM.download]]
-    sha256 = "c4df85ed4da18f721d687bc071b564d47b9504eed47ebeed805c706b3c22ec1d"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-unknown-freebsd-libgfortran3.tar.gz"
+    sha256 = "4ba5d48363de763d91d8aa4758eb97943f0547137cf46985b609f3e302f57dc2"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-unknown-freebsd-libgfortran3-mpi+openmpi.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "ec9b6395702dcd8b9328ea2450c82b75d070967c"
+git-tree-sha1 = "effb3a0e9ff2353bce4c075f2bf68cd05197a982"
+lazy = true
 libgfortran_version = "4.0.0"
+mpi = "mpich"
 os = "freebsd"
 
     [[MSTM.download]]
-    sha256 = "25f09e9c8307a0183d7a88f9e510c799d39aba704d4d180ac919cd7d05ab7b22"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-unknown-freebsd-libgfortran4.tar.gz"
+    sha256 = "45840df43ab10531c7c4369477bc5f8f64ef38d133d9dce2dd95898daed1e168"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-unknown-freebsd-libgfortran4-mpi+mpich.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "fa5ae202e91593fb11038c90ceb9eb63429d7342"
+git-tree-sha1 = "d0b0b2a5f7d707bf95eaa54deef18c2c33d34b61"
+lazy = true
+libgfortran_version = "4.0.0"
+mpi = "openmpi"
+os = "freebsd"
+
+    [[MSTM.download]]
+    sha256 = "f75f79a76e263d43beb85130a8e8a954c7a095af4628b517835c449bb2e12236"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-unknown-freebsd-libgfortran4-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "x86_64"
+git-tree-sha1 = "524fea791379f92fd4153b7dc4b6cfed36c9726a"
+lazy = true
 libgfortran_version = "5.0.0"
+mpi = "mpich"
 os = "freebsd"
 
     [[MSTM.download]]
-    sha256 = "7b7dd7244876b1e54db99e247e03424dcf62a83be36be1cddf671728e9fcab25"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-unknown-freebsd-libgfortran5.tar.gz"
+    sha256 = "791c5f71f8127043cca189d7bc0f19b8a48d7bab54034522a7442da7e7181a25"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-unknown-freebsd-libgfortran5-mpi+mpich.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "89ec2ce0b87d9d3204401c5e4ccb554944ef6a23"
+git-tree-sha1 = "8293cbe12d3fc3d71357f211cc109cc8902b83a9"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "freebsd"
+
+    [[MSTM.download]]
+    sha256 = "a99558880ae05652f4c5263aace8f5fc4cfdf184cf95dee499734aa43fa17193"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-unknown-freebsd-libgfortran5-mpi+openmpi.tar.gz"
+[[MSTM]]
+arch = "x86_64"
+git-tree-sha1 = "8545e08044ee4a0594839bc1bc0d3a9ea0f7b0b7"
+lazy = true
 libgfortran_version = "3.0.0"
+mpi = "microsoftmpi"
 os = "windows"
 
     [[MSTM.download]]
-    sha256 = "6ec99c926ae034497a2d9ec783c5470eb7215221917735c6fc4c1b6f047608ab"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-w64-mingw32-libgfortran3.tar.gz"
+    sha256 = "04e66d6da19ec5726036ed23b99b9ab3948aee7a6ae88c2b4464fd2efae58cdf"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-w64-mingw32-libgfortran3-mpi+microsoftmpi.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "68fe8f627c1c68de11188501d075e542bdd849e7"
+git-tree-sha1 = "c682e3dd86fc816e3207880f1acf0bd96783010f"
+lazy = true
 libgfortran_version = "4.0.0"
+mpi = "microsoftmpi"
 os = "windows"
 
     [[MSTM.download]]
-    sha256 = "1d40e1f769b6f9b4790df93a7e1475d8cec6c52cc9376ec3b9010d4ddbb11048"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-w64-mingw32-libgfortran4.tar.gz"
+    sha256 = "3d2e1d6e56daf242739eec4e1418dea124d60742f8def8a125bb2d28d7389f59"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-w64-mingw32-libgfortran4-mpi+microsoftmpi.tar.gz"
 [[MSTM]]
 arch = "x86_64"
-git-tree-sha1 = "d7ecb47345264d1bc800b048d79aca5b284895c0"
+git-tree-sha1 = "3ef3b55e5cc505cf03e30572bff05693e1df37c2"
+lazy = true
 libgfortran_version = "5.0.0"
+mpi = "microsoftmpi"
 os = "windows"
 
     [[MSTM.download]]
-    sha256 = "5430d48fc72895f62f1f5b6e7af5fc94ecb6b1cbd3a3974c773c38eeccb31cfa"
-    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.1+0/MSTM.v4.0.1.x86_64-w64-mingw32-libgfortran5.tar.gz"
+    sha256 = "8d52148188d0931cb27a04675663001c6ce3f75cb20c0cfa627f3b900fbe549c"
+    url = "https://github.com/JuliaBinaryWrappers/MSTM_jll.jl/releases/download/MSTM-v4.0.2+0/MSTM.v4.0.2.x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi.tar.gz"
